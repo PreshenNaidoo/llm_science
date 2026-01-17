@@ -1,0 +1,35 @@
+# ================================
+# PyTorch (GPU via CUDA 12.1)
+# ================================
+torch>=2.1
+torchvision
+torchaudio
+
+# ================================
+# Notebooks & tooling
+# ================================
+jupyter
+ipykernel
+
+# ================================
+# Core ML / Data
+# ================================
+numpy
+pandas
+matplotlib
+tqdm
+
+# ================================
+# Hugging Face ecosystem
+# ================================
+datasets
+transformers
+tokenizers
+accelerate
+peft
+
+# ================================
+# Optional / advanced (later lessons)
+# ================================
+trl
+bitsandbytes
