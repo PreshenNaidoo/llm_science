@@ -7,7 +7,7 @@ Every lesson is a **self-contained Jupyter notebook** that builds and trains a r
 
 The models are intentionally **small and readable**, but each notebook includes **scaling notes** describing how the same ideas apply to frontier-scale systems.
 
-I found most online courses too surface-level for frontier-model work, so I built these notebooks to learn deeply and share them.
+**I found most online courses too surface-level for frontier-model work, so I built these notebooks to learn deeply and share them.**
 
 ---
 
