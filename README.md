@@ -1,13 +1,15 @@
 # LLMs from Scratch - Research-Oriented Learning Path
 
+There is a significant gap between most online courses and the depth required for industry-level research engineering in LLMs.
+This repository was created to bridge that gap through hands-on implementation.
+The notebooks were originally built for my own learning, and are shared here in case they are useful to others pursuing a deeper understanding.
+
 This repository is a structured, end-to-end curriculum for learning Large Language Models (LLMs) from first principles to a level suitable for **research engineering roles**.
 
 The goal is deep understanding, not library magic.
 Every lesson is a self-contained Jupyter notebook that builds and trains a real model, explains *why* it works, and tests it with inference.
 
 The models are intentionally small and readable, but each notebook includes scaling notes describing how the same ideas apply to frontier-scale systems.
-
-**I found most online courses too surface-level for frontier-model work, so I built these notebooks to learn deeply and share them.**
 
 ---
 
