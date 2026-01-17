@@ -205,14 +205,20 @@ If you use CUDA, install a build of PyTorch compatible with your NVIDIA drivers.
 
 ## How to Use This Repository
 
-1. **Sync the environment**
-   ```bash
-   uv sync
-   ```
-2. **Start Jupyter**
-   ```bash
-   uv run jupyter lab
-   ```
-3. **Open a lesson notebook** and run the cells top-to-bottom.
+### Set up the Python environment
+
+To set up the environment, you can use either a standard Python setup (venv or Conda) or `uv`.
+
+You can use either a standard Python environment (venv or Conda) or `uv`.
+
+```bash
+# Option A — Standard Python Environment (pip / venv / Conda)
+pip install -r requirements.txt
+
+# Option B — Using uv
+uv sync
+```
+
+**Open a lesson notebook** and run the cells top-to-bottom.
 
 First run will download `wikitext-2-raw-v1` from Hugging Face.
