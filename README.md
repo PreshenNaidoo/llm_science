@@ -1,6 +1,6 @@
 # LLMs from Scratch - Research-Oriented Learning Path
 
-This repository is a **structured, end-to-end curriculum for learning Large Language Models (LLMs)** from first principles to a level suitable for **research engineering roles** (e.g., OpenAI, Anthropic, DeepMind).
+This repository is a **structured, end-to-end curriculum for learning Large Language Models (LLMs)** from first principles to a level suitable for **research engineering roles**.
 
 The goal is **deep understanding, not library magic**.
 Every lesson is a **self-contained Jupyter notebook** that builds and trains a real model, explains *why* it works, and tests it with inference.
