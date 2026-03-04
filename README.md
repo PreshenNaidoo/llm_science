@@ -1,15 +1,13 @@
 # LLMs from Scratch - Research-Oriented Learning Path
 
-There is a significant gap between most online courses and the depth required for industry-level research engineering in LLMs.
-This repository was created to bridge that gap through hands-on implementation.
-The notebooks were originally built for my own learning, and are shared here in case they are useful to others pursuing a deeper understanding.
+This repository is a **structured, end-to-end curriculum for learning Large Language Models (LLMs)** from first principles to a level suitable for **research engineering roles** (e.g., OpenAI, Anthropic, DeepMind).
 
-This repository is a structured, end-to-end curriculum for learning Large Language Models (LLMs) from first principles to a level suitable for **research engineering roles**.
+The goal is **deep understanding, not library magic**.
+Every lesson is a **self-contained Jupyter notebook** that builds and trains a real model, explains *why* it works, and tests it with inference.
 
-The goal is deep understanding, not library magic.
-Every lesson is a self-contained Jupyter notebook that builds and trains a real model, explains *why* it works, and tests it with inference.
+The models are intentionally **small and readable**, but each notebook includes **scaling notes** describing how the same ideas apply to frontier-scale systems.
 
-The models are intentionally small and readable, but each notebook includes scaling notes describing how the same ideas apply to frontier-scale systems.
+I found most online courses too surface-level for frontier-model work, so I built these notebooks to learn deeply and share them.
 
 ---
 
@@ -205,20 +203,14 @@ If you use CUDA, install a build of PyTorch compatible with your NVIDIA drivers.
 
 ## How to Use This Repository
 
-### Set up the Python environment
-
-To set up the environment, you can use either a standard Python setup (venv or Conda) or `uv`.
-
-You can use either a standard Python environment (venv or Conda) or `uv`.
-
-```bash
-# Option A — Standard Python Environment (pip / venv / Conda)
-pip install -r requirements.txt
-
-# Option B — Using uv
-uv sync
-```
-
-**Open a lesson notebook** and run the cells top-to-bottom.
+1. **Sync the environment**
+   ```bash
+   uv sync
+   ```
+2. **Start Jupyter**
+   ```bash
+   uv run jupyter lab
+   ```
+3. **Open a lesson notebook** and run the cells top-to-bottom.
 
 First run will download `wikitext-2-raw-v1` from Hugging Face.

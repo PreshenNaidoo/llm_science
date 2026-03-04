@@ -136,9 +136,6 @@ celerybeat.pid
 
 # Environments
 .env
-.venv/
-dpo_outputs/
-lora-gpt2-sft/
 .envrc
 .venv
 env/
